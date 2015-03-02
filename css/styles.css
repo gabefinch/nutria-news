@@ -6,3 +6,10 @@
 .storyphoto{
   width:100%;
 }
+
+.carousel img {
+  width:100%;
+}
+.carousel div {
+  text-align:center;
+}
