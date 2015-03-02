@@ -5,7 +5,6 @@ NutriaFeed.HomeController = Ember.Controller.extend({
     'bathtime',
     'deadrodents',
     'marsh',
-    'poop',
     'sex'
     ],
   current: 0,
@@ -27,6 +26,8 @@ NutriaFeed.HomeController = Ember.Controller.extend({
         this.set('current', this.get('current') + 1);
       }
       this.set('storyImage', "/css/img/" + this.get('pictures')[this.get('current')] + ".jpg")
-    }
+    },
+
   }
+
 });
