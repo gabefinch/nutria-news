@@ -1,0 +1,1 @@
+NutriaFeed = Ember.Application.create();
