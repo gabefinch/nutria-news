@@ -1,4 +1,8 @@
 .storypane img {
   width:100%;
-  height:300px;
+  height:relative;
+}
+
+.storyphoto{
+  width:100%;
 }
