@@ -3,6 +3,10 @@ NutriaFeed.ApplicationController = Ember.Controller.extend({
   actions: {
      showPopover: function() {
       this.set("mascotShowing", true);
+    },
+
+     hidePopover: function() {
+      this.set("mascotShowing", false);
      }
    }
 
