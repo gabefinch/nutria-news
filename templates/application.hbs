@@ -1,6 +1,6 @@
 <div class="container">
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default " style="position: relative; top: 0;">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -29,13 +29,19 @@
             </ul>
           </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a {{action "showPopover" on="mouseEnter"}}>Mascot</a></li>
-        </ul>
+        <div >
+          <ul class="nav navbar-nav navbar-right">
+            <li><a {{action "showPopover" on="mouseEnter"}}>Mascot</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
 
   {{outlet}}
-
+  {{#if mascotShowing }}
+    <div id="mascot-box">
+      <img src="css/img/mascot.png" style="position: relative; top: 0;" class="mascot"/>
+    </div>
+  {{/if}}
 </div>

@@ -1,7 +1,8 @@
 NutriaFeed.ApplicationController = Ember.Controller.extend({
+  mascotShowing: false,
   actions: {
      showPopover: function() {
-       alert("you are hovering");
+      this.set("mascotShowing", true);
      }
    }
 

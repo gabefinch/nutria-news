@@ -13,3 +13,20 @@
 .carousel div {
   text-align:center;
 }
+
+.carousel .btn{
+  margin-top: 100%;
+}
+
+
+.mascot {
+  height:100px;
+  width:relative;
+}
+
+#mascot-box {
+  text-align:right;
+  position: fixed;
+  top: 5.5%;
+  left: 84%;
+}
